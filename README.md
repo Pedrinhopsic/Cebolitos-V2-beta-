@@ -15,8 +15,8 @@
 ### Como usar
 1. Acesse o painel pelo navegador (após configurar GitHub Pages)
 2. Insira seu RA e senha
-3. Escolha a ação desejada
 
-> Projeto feito para fins educacionais e testes de segurança.
+
+> Projeto feito porque doritos caiu :(
 
 ---
