@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cebolitos V2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            width: 400px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: auto;
+        }
+        .input-row {
+            display: flex;
+            gap: 10px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Cebolitos V2 - Login</h2>
+        <div class="input-row">
+            <input type="text" id="ra" placeholder="RA">
+            <input type="text" id="digito" placeholder="Dígito">
+        </div>
+        <input type="password" id="senha" placeholder="Senha">
+        <button onclick="fazerTarefas()">Fazer Tarefas</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
